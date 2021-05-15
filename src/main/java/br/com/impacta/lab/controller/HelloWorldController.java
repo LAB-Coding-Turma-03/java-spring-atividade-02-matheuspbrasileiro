@@ -21,11 +21,11 @@ public class HelloWorldController {
 		//Exmeplo de resposta: Hello world felipe !
 		
 			//String nome = "Matheus";
-		String sobrenome = "Hello world!";
+			String sobrenome = "Hello world";
 
 
 
-		return ResponseEntity.ok(nome + sobrenome);
+		return ResponseEntity.ok(sobrenome + " " + nome + " !" );
 	}
 	
 }
